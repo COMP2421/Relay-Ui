@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+  background-color:  #449c94;
+}
+
+/*user list*/
+.users {   
+  float: left;
+  width: 150px;
+  height: 95%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #015d52;
+}
+/*Users*/
+#Friends{
+  margin-left: 5%;
+  width: 90%;
+  border-radius: 10px;
+  background-color: #669690;
+  text-align: center;
+  color: white;
+  font-size: x-large;
+  cursor: pointer;
+}
+#Friends:hover{
+  margin-left: 5%;
+  width: 90%;
+  border-radius: 10px;
+  background-color: #449c94;
+  text-align: center;
+  color: white;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+/*message area*/
+p{
+  background-color: #daf0ed;
+  border-radius: 10px;
+  padding: 0.5%;
+  font-size: medium;
+  line-break: auto;
+  max-width: 60%;
+  clear: both;
+  margin-left: 150px;
+  margin-bottom: 50px;
+}
+#U1 {
+  float: left;
+}
+#U2 {
+  float: Right;
+}
+
+/*bottom bar*/
+.navbar {
+    background-color: #015d52;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    width: 150px;
+    padding: 0.4%;
+    background-color: #163a36;
+
+    /*text syle*/
+    text-align: center;
+    font-size: medium;
+    color: #f2f2f2;
+  }
+  .navbar a:hover {
+    float: left;
+    display: block;
+    width: 150px;
+    padding: 0.4%;
+    background-color: #daf0ed;
+    cursor: pointer;
+
+    /*text syle*/
+    text-align: center;
+    font-size: medium;
+    color: black;
+  }
+
+input{
+  background-color:#daf0ed;
+  border-radius: 10px;
+  margin-left: 1%;
+  margin-top: 0.5%;
+  border: none;
+  height: 3%;
+  width: 85%;
+  padding: 0.5;
+  position: fixed;
+
+
+  font-size: medium;
+}
+  
+button {  
+    /* button style */
+    background-color: #163a36;
+    border: 2px solid #015d52;
+    width: 5%;
+    height: 5%;
+    border-radius: 4px;
+    cursor: pointer;
+    Right: 0;
+    bottom: 0;
+    position: fixed;
+    
+    
+    /* text style */
+    color: white;
+    font-size: medium;
+  }
+
+  
